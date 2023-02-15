@@ -1,0 +1,406 @@
+:root {
+    --color: #0065FC;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: #F0F2F6;
+
+}
+
+
+/*----------------------Début barre de navigation-----------------*/
+header .barre-navigation {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+
+
+}
+
+
+header .barre-navigation .logo img {
+
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+}
+
+header .barre-navigation .liens a {
+    text-decoration: none;
+    padding-left: 40px;
+    color: black;
+    border: solid #F0F2F6 1px;
+}
+
+header .barre-navigation .liens a:hover {
+    color: var(--color);
+    border-top: #0065FC solid 1px;
+}
+
+/*----------------------Début barre de navigation-----------------*/
+
+nav {
+    padding: 30px 30px;
+}
+
+
+.hebergement .barre-recherche {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 16px;
+    gap: 10px;
+    width: 132px;
+    height: 49px;
+    left: 341px;
+    top: 199px;
+}
+
+nav .barre-recherche {
+    display: flex;
+    align-items: center;
+
+}
+
+nav .barre-recherche input {
+
+    background: #FFFFFF;
+
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: -4px;
+    padding-left: -10px;
+}
+
+
+
+nav .barre-recherche button {
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    width: 132px;
+    height: 49px;
+    left: 341px;
+    top: 199px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    cursor: pointer;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+nav .barre-recherche i {
+    color: #000000;
+    width: 50px;
+    height: 50px;
+    background-color: #e4dede;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+}
+
+
+
+/*-------------------------------------------REVENIR  APRES------------------*/
+
+nav .filtres {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 20px;
+
+}
+
+nav .filtres h3 {
+    margin-right: 60px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+nav .filtres button {
+    margin-right: 60px;
+    background: inherit;
+    padding: 10px 15px;
+    cursor: pointer;
+    /* Grey/Tint2 */
+
+    font-weight: 700;
+    font-size: 17px;
+
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+}
+
+nav .filtres button:hover {
+    background-color: #DEEBFF;
+
+}
+
+nav .filtres button i {
+    color: #0065FC;
+    padding-right: 5px;
+}
+
+nav .info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+nav .info i {
+    color: #0065FC;
+    border: solid 1px grey;
+    width: 25px;
+    height: 25px;
+    background-color: inherit;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+/*--------------------------------------------SECTION------------------------------------------------*/
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*-------------------------------------Début Section <main>------------------------------------------*/
+section {
+    padding: 30px 30px;
+}
+
+section main {
+    background: #8a4e4e;
+    border-radius: 20px;
+    padding-top: 15px;
+    width: 800px;
+    padding-left: 25px;
+}
+
+section main h2 {
+    color: #000000;
+}
+
+section main h3 {
+    color: #000000;
+}
+
+section main a {
+    text-decoration: none;
+}
+
+section main i {
+    color: #0065FC;
+
+}
+
+
+section main img {
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    width: 210px;
+    height: 140px;
+}
+
+/*---------------------------------------------1re ligne------------------------------------*/
+
+section main .first-choice {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+/*------------------------ main Option 1-----------*/
+
+main .first-choice .option-1 {
+    background-color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 10px;
+}
+
+/*------------------------ main Option 2-----------*/
+
+main .first-choice .option-2 {
+    background-color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 10px;
+}
+
+/*------------------------ main Option 3-----------*/
+
+main .first-choice .option-3 {
+    background-color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 10px;
+}
+
+/*-----------------------------------------------2eme ligne--------------------------------------------*/
+
+section main .second-choice {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+/*------------------------ main Option 4-----------*/
+
+main .second-choice .option-4 {
+    background-color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 10px;
+}
+
+/*------------------------ main Option 5-----------*/
+
+main .second-choice .option-5 {
+    background-color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 10px;
+}
+
+/*------------------------ main Option 6-----------*/
+
+main .second-choice .option-6 {
+    background-color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------------------------Fin section main---------------------------------------*/
+
+/*----------------------------------------------------Début section aside-------------------------------------*/
+
+
+aside {
+    margin-left: 30px;
+    background-color: rebeccapurple;
+    width: 400px;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+
+aside h1 {
+    padding-left: 30px;
+    font-weight: 1000;
+}
+
+aside h2 {
+    color: #000000;
+}
+
+aside h3 {
+    color: #000000;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside i {
+    color: #0065FC;
+}
+
+
+
+aside .populaires {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+
+}
+
+aside .populaires img {
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    width: 120px;
+    height: 90px;
+}
+
+aside .populaires .description {
+    width: 190px;
+    font-size: small;
+}
+
+/*----------------------------Image-1-------------------------------*/
+
+aside .populaires .image-1 {
+    background-color: #D9D9D9;
+
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+/*----------------------------Image-2-------------------------------*/
+
+aside .populaires .image-2 {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+
+/*----------------------------Image-3-------------------------------*/
+
+aside .populaires .image-3 {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+
+}
