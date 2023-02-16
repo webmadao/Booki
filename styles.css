@@ -203,12 +203,12 @@ section {
     flex-wrap: wrap;
 }
 
-/*-------------------------------------Début Section <main>------------------------------------------*/
+/*-------------------------------------Début Section <article>------------------------------------------*/
 section {
     padding: 30px 30px;
 }
 
-section main {
+section article {
     background: #8a4e4e;
     border-radius: 20px;
     padding-top: 15px;
@@ -216,25 +216,25 @@ section main {
     padding-left: 25px;
 }
 
-section main h2 {
+section article h2 {
     color: #000000;
 }
 
-section main h3 {
+section article h3 {
     color: #000000;
 }
 
-section main a {
+section article a {
     text-decoration: none;
 }
 
-section main i {
+section article i {
     color: #0065FC;
 
 }
 
 
-section main img {
+section article img {
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
     width: 210px;
@@ -243,7 +243,7 @@ section main img {
 
 /*---------------------------------------------1re ligne------------------------------------*/
 
-section main .first-choice {
+section article .first-choice {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -251,27 +251,27 @@ section main .first-choice {
 }
 
 
-/*------------------------ main Option 1-----------*/
+/*------------------------Option 1-----------*/
 
-main .first-choice .option-1 {
+article .first-choice .option-1 {
     background-color: #FFFFFF;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 20px 20px;
     margin-right: 10px;
 }
 
-/*------------------------ main Option 2-----------*/
+/*------------------------ Option 2-----------*/
 
-main .first-choice .option-2 {
+article .first-choice .option-2 {
     background-color: #FFFFFF;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 20px 20px;
     margin-right: 10px;
 }
 
-/*------------------------ main Option 3-----------*/
+/*------------------------  Option 3-----------*/
 
-main .first-choice .option-3 {
+article .first-choice .option-3 {
     background-color: #FFFFFF;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 20px 20px;
@@ -280,7 +280,7 @@ main .first-choice .option-3 {
 
 /*-----------------------------------------------2eme ligne--------------------------------------------*/
 
-section main .second-choice {
+section article .second-choice {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -288,27 +288,27 @@ section main .second-choice {
 }
 
 
-/*------------------------ main Option 4-----------*/
+/*------------------------  Option 4-----------*/
 
-main .second-choice .option-4 {
+article .second-choice .option-4 {
     background-color: #FFFFFF;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 20px 20px;
     margin-right: 10px;
 }
 
-/*------------------------ main Option 5-----------*/
+/*------------------------ Option 5-----------*/
 
-main .second-choice .option-5 {
+article .second-choice .option-5 {
     background-color: #FFFFFF;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 20px 20px;
     margin-right: 10px;
 }
 
-/*------------------------ main Option 6-----------*/
+/*------------------------ Option 6-----------*/
 
-main .second-choice .option-6 {
+article .second-choice .option-6 {
     background-color: #FFFFFF;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 20px 20px;
@@ -316,7 +316,7 @@ main .second-choice .option-6 {
     margin-bottom: 20px;
 }
 
-/*-----------------------------------------------------Fin section main---------------------------------------*/
+/*-----------------------------------------------------Fin section <article>---------------------------------------*/
 
 /*----------------------------------------------------Début section aside-------------------------------------*/
 
@@ -358,9 +358,6 @@ aside .populaires {
     align-items: center;
     margin-left: 20px;
     margin-right: 20px;
-
-
-
 }
 
 aside .populaires img {
@@ -402,5 +399,4 @@ aside .populaires .image-3 {
     border-radius: 20px;
     margin-bottom: 20px;
     padding-bottom: 5px;
-
 }
