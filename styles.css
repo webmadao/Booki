@@ -412,11 +412,61 @@ main .ativités {
     justify-content: center;
 }
 
+/*------------------------------------------1re carte-----------------------*/
 main .ativités .vieux-port {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    width: 302px;
+    height: 444px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+/*--------------------------------------------2eme carte--------------*/
+
+main .ativités .pomègues {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    width: 302px;
+    height: 444px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center bottom;
+
+    padding-bottom: 50px;
+
+    text-align: center
+}
+
+button {
+    margin: 0;
+    position: ;
+}
+
+/*--------------------------------------------3eme carte--------------*/
+
+main .ativités .calanques {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    width: 302px;
+    height: 444px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+main .ativités .notre-dame {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     width: 302px;
     height: 444px;
     border-radius: 20px;
