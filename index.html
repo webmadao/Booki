@@ -5,16 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booki</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@300&family=Roboto:wght@100;300;400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preload" href="css/style.css" as="style">
+
     <meta name="description" content="Template to start HTML">
-    <link rel="stylesheet" href="styles.css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -22,12 +16,12 @@
     <!-- début nav -->
     <nav>
         <img src="images/logo/Booki.png" alt="logo">
-
-        <ul>
-            <li>Hébergements</li>
-            <li>Activités</li>
-        </ul>
-
+        <a href="#">
+            <ul>
+                <li>Hébergements</li>
+                <li>Activités</li>
+            </ul>
+        </a>
     </nav>
     <!-- Fin nav s-->
 
@@ -159,81 +153,84 @@
                     </a>
                 </div>
 
-                <a href="#">
-                    <h3>Afficher plus</h3>
-                </a>
+
 
             </div>
+            <a href="#">
+                <h4>Afficher plus</h4>
+            </a>
         </article>
         <!-- ----------------------------------------------aside---------------------------------------- -->
         <aside>
             <h2>Les plus populaires<i class="fa-solid fa-chart-line"></i></h2>
-            <div class="populaires">
+            <a href="#">
+                <div class="populaires">
 
-                <div class="choix">
+                    <div class="choix">
 
-                    <div class="gauche">
+                        <div class="gauche">
 
-                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                            alt="Hôtel-Le-soleil-du-matin">
+                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="Hôtel-Le-soleil-du-matin">
+                        </div>
+                        <div class="droite">
+                            <h3>Hôtel Le soleil du matin</h3>
+                            <p>Nuit à partir de 128€
+                            <p>
+
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-duotone fa-star"></i>
+                        </div>
+
                     </div>
-                    <div class="droite">
-                        <h3>Hôtel Le soleil du matin</h3>
-                        <p>Nuit à partir de 128€
-                        <p>
 
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-duotone fa-star"></i>
+
+                    <div class="choix">
+
+                        <div class="gauche">
+
+                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="Hôtel-Le-soleil-du-matin">
+                        </div>
+                        <div class="droite">
+                            <h3>Hôtel Le soleil du matin</h3>
+                            <p>Nuit à partir de 128€
+                            <p>
+
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-duotone fa-star"></i>
+                        </div>
+
                     </div>
 
+                    <div class="choix">
+
+                        <div class="gauche">
+
+                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="Hôtel-Le-soleil-du-matin">
+                        </div>
+                        <div class="droite">
+                            <h3>Hôtel Le soleil du matin</h3>
+                            <p>Nuit à partir de 128€
+                            <p>
+
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-duotone fa-star"></i>
+                        </div>
+
+                    </div>
                 </div>
-
-
-                <div class="choix">
-
-                    <div class="gauche">
-
-                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                            alt="Hôtel-Le-soleil-du-matin">
-                    </div>
-                    <div class="droite">
-                        <h3>Hôtel Le soleil du matin</h3>
-                        <p>Nuit à partir de 128€
-                        <p>
-
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-duotone fa-star"></i>
-                    </div>
-
-                </div>
-
-                <div class="choix">
-
-                    <div class="gauche">
-
-                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                            alt="Hôtel-Le-soleil-du-matin">
-                    </div>
-                    <div class="droite">
-                        <h3>Hôtel Le soleil du matin</h3>
-                        <p>Nuit à partir de 128€
-                        <p>
-
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-duotone fa-star"></i>
-                    </div>
-
-                </div>
-            </div>
+            </a>
         </aside>
     </section>
     <!-- --------------------------------------------------Main------------------------------------------------------>
