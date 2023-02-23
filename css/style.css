@@ -12,6 +12,7 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: #F0F2F6;
     padding: 30px 30px;
+
 }
 
 
@@ -22,6 +23,7 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+
 }
 
 
@@ -44,7 +46,6 @@ nav ul {
 
 nav ul li {
     padding-left: 20px;
-
 }
 
 nav li:hover {
@@ -59,6 +60,10 @@ nav a {
 }
 
 /*----------------------Début header----------------*/
+
+header {
+    padding-top: 25px;
+}
 
 header .hebergement .barre-recherche {
     display: flex;
@@ -78,27 +83,27 @@ header .hebergement .barre-recherche {
 header .barre-recherche {
     display: flex;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 
-header .barre-recherche input {
+header .barre-recherche form input {
     background: #FFFFFF;
-    border: 1px solid #F2F2F2;
     border-radius: 15px;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    text-align: center;
+    text-align: start;
     color: #000000;
     width: 300px;
     height: 30px;
-    padding: 10px;
+    padding: 9px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-right: -4px;
     padding-left: -10px;
+    border: hidden;
+
 }
 
 
@@ -111,7 +116,6 @@ header .barre-recherche button {
     height: 49px;
     left: 341px;
     top: 199px;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -133,10 +137,6 @@ header .barre-recherche i {
     justify-content: center;
     margin-right: 0px;
 }
-
-
-
-/*-------------------------------------------REVENIR  APRES------------------*/
 
 header .filtres {
     display: flex;
@@ -166,6 +166,7 @@ header .filtres button {
     font-size: 17px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
+
 }
 
 header .filtres button:hover {
@@ -214,32 +215,25 @@ section article {
     padding-top: 15px;
     width: 790px;
     height: 685px;
-    padding-left: 25px;
+    padding-left: 60px;
 }
 
-section article h4 {
-    color: #000000;
-}
-
-section article p {
-    color: #000000;
-}
 
 section article a {
     text-decoration: none;
+    color: #000000;
 }
 
 section article i {
     color: #0065FC;
-
 }
 
 
 section article img {
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
-    width: 218px;
-    height: 120px;
+    width: 212px;
+    height: 125px;
     box-sizing: border-box
 }
 
@@ -262,9 +256,9 @@ article .first-choice .option {
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 20px 20px;
     margin-right: 10px;
+    width: 220px;
+    height: 250px;
 }
-
-
 
 /*---------------------------------------------2eme ligne------------------------------------*/
 section article .second-choice {
@@ -278,6 +272,8 @@ article .second-choice .option {
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 20px 20px;
     margin-right: 10px;
+    width: 220px;
+    height: 250px;
 }
 
 article .second-choice .option:hover {
@@ -307,16 +303,10 @@ aside h2 i {
     color: #0065FC;
 }
 
-aside h3 {
-    color: #000000;
-}
-
-aside p {
-    color: #000000;
-}
 
 aside a {
     text-decoration: none;
+    color: #000000;
 }
 
 aside .populaires i {
@@ -324,9 +314,11 @@ aside .populaires i {
 }
 
 aside img {
-    width: 220px;
-    height: 500;
-    box-sizing: border-box
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 aside .populaires {
@@ -343,32 +335,36 @@ aside .populaires img {
 }
 
 aside .populaires .choix {
-    width: 400px;
+    width: 350px;
+    height: 150px;
     background-color: #FFFFFF;
     border-radius: 20px;
     margin-bottom: 20px;
-
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-around;
 }
 
 aside .populaires .choix .gauche {
     padding-right: 5px;
+    width: 50%;
 }
+
+aside .populaires .choix .droite {
+    padding-right: 5px;
+    width: 50%;
+}
+
 
 aside .populaires .choix:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
-
-
 
 /*------------------------------------------------ Début main---------------------*/
 
 main {
     padding-top: 25px;
 }
-
 
 main img {
     width: 310px;
@@ -402,12 +398,9 @@ main .activités .card {
     padding: 2px 16px;
 }
 
-
-
 /*----------------------------- Footer--------*/
 
 footer {
-
     margin-top: 30px;
     display: flex;
     align-items: center;
@@ -419,7 +412,6 @@ footer {
 footer a {
     text-decoration: none;
     color: #000000;
-
 }
 
 footer .contenair {
@@ -430,7 +422,9 @@ footer .contenair {
 }
 
 /*------------------------------------- responsive------------------------*/
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 992px) {
+
     header .filtres button {
         margin-left: -50px;
         font-weight: 700;
@@ -449,8 +443,16 @@ footer .contenair {
     }
 
     section article img {
-        width: 190px;
+        width: 170px;
         height: 100px;
+    }
+
+    section article .first-choice .option {
+        width: 25%;
+    }
+
+    section article .second-choice .option {
+        width: 25%;
     }
 
     /*---------------------------------------------fin article------------------------------------*/
@@ -459,6 +461,7 @@ footer .contenair {
         margin: 10px 0px 0px 0px;
         width: 100%;
         height: 50%;
+        margin-top: 20px;
     }
 
     aside .populaires .choix .droite h3 {
@@ -477,6 +480,7 @@ footer .contenair {
 
     section aside .populaires .choix {
         width: 30%;
+        height: 30%;
         display: flex;
         margin-right: 10px;
 
@@ -492,11 +496,11 @@ footer .contenair {
 
     section aside .populaires .choix .gauche {
         width: 50%;
+
     }
 
     section aside .populaires .choix .droite {
         width: 50%;
-
     }
 
     /*-----------------------------------------------------------*/
@@ -518,14 +522,5 @@ footer .contenair {
         width: 150px;
         word-break: break-word;
     }
-
-
-
-
-
-
-
-
-
 
 }
