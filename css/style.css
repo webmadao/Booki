@@ -4,13 +4,22 @@
 
 
 /*-----------------------------------------------------Css Booki-----------------------------------------*/
+:root {
+    --blue: #0065FC;
+    --light-blue: #DEEBFF;
+    --grey: #F2F2F2;
+    --dark: #000;
+    --white: #FFF;
+}
+
+
 
 body {
     max-width: 1400px;
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    background-color: #F0F2F6;
-    padding: 30px 30px;
+
+    padding: 0px 30px;
 }
 
 
@@ -20,7 +29,7 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-
+    padding: 25px;
 }
 
 
@@ -45,15 +54,15 @@ nav ul li {
     position: relative;
 }
 
-nav li:hover {
+nav ul a:hover {
     color: #0065FC;
 }
 
-nav li:hover::before {
+nav a:hover::before {
     content: "";
     display: block;
     position: absolute;
-    top: -45px;
+    top: -40px;
     left: 0;
     width: 100%;
     height: 1px;
@@ -62,147 +71,50 @@ nav li:hover::before {
 
 nav a {
     text-decoration: none;
+    color: var(--dark);
 }
 
 /*----------------------Début header----------------*/
 
 header {
-    padding-top: 25px;
-}
-
-header .container .barre-recherche {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 15px 16px;
-    gap: 10px;
-    width: 100%;
-    max-width: 300px;
-    height: 49px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-header .barre-recherche {
-    display: flex;
-    align-items: center;
+    padding-top: 20px;
     flex-wrap: wrap;
 }
 
-header .barre-recherche form input {
-    background: #FFFFFF;
-    border-radius: 15px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: start;
-    color: #000000;
-    width: 300px;
-    height: 30px;
-    padding: 9px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: -4px;
-    padding-left: -10px;
-    border: hidden;
-}
-
-
-
-header .barre-recherche button {
-    background: #0065FC;
-    border: 1px solid #0065FC;
-    border-radius: 0px 15px 15px 0px;
-    width: 132px;
-    height: 49px;
-    left: 341px;
-    top: 199px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    cursor: pointer;
-    color: #FFFFFF;
-}
-
-header .barre-recherche .fa-location-dot {
-    color: #000000;
-    width: 50px;
-    height: 50px;
-    background-color: #c2c2c2;
-    border: 1px solid #F2F2F2;
+form i {
+    border: 1px solid var(--grey);
     border-radius: 15px 0px 0px 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 0px;
+    padding: 15px 13px;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #d4d5d6;
+    color: var(--white);
 }
 
-header .barre-recherche button .fa-magnifying-glass {
+header i.fa-location-dot {
+    color: var(--dark);
+}
+
+
+.desktop-button {
+    border: 1px solid var(--grey);
+    border-radius: 0 15px 15px 0;
+    padding: 15px 13px;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.mobile-button {
     display: none;
 }
 
-header .filtres {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-top: 25px;
-
+header i.fa-location-dot {
+    color: var(--dark);
 }
 
-header .filtres h2 {
-    margin-right: 55px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: bold;
-    line-height: 21px;
-}
 
-header .filtres button {
-    margin-right: 60px;
-    background: inherit;
-    padding: 10px 15px;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 17px;
-    border: 2px solid #D9D9D9;
-    border-radius: 25px;
-
-}
-
-header .filtres button:hover {
-    background-color: #DEEBFF;
-
-}
-
-header .filtres button i {
-    color: #0065FC;
-    padding-right: 5px;
-}
-
-header .info {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 20px;
-}
-
-header .info i {
-    color: #0065FC;
-    border: solid 1px grey;
-    width: 25px;
-    height: 25px;
-    background-color: inherit;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 5px;
-}
 
 /*--------------------------------------------SECTION------------------------------------------------*/
 
