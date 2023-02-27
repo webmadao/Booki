@@ -16,10 +16,15 @@
 
 body {
     max-width: 1400px;
-    margin: 0;
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 
-    padding: 0px 30px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 
@@ -29,7 +34,6 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 25px;
 }
 
 
@@ -119,6 +123,15 @@ header i.fa-location-dot {
 
 .mobile-button {
     display: none;
+    position: relative;
+    right: 20px;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0065fc;
+    color: white;
 }
 
 header i.fa-location-dot {
@@ -173,15 +186,15 @@ section li {
     font-weight: bold;
 }
 
-section i {
+.filtres i {
     color: #0065FC;
 }
 
-section li:hover {
+.filtres li:hover {
     background-color: #c6d9f5;
 }
 
-section li:active {
+.filtres li:active {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -193,16 +206,196 @@ section li:active {
 }
 
 /*-------------------------------------fin SECTION "filtres"-----------------------------------------*/
-
-
-
-/*--------------------------------------- Début main <section "hebergement">---------------------*/
-
 main {
-    bac
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 
+main .hebergement img {
+    width: 90%;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border: 1px solid hidden;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px 0;
+    object-fit: cover;
+}
+
+
+.hebergement {
+    background-color: rgb(57, 114, 199);
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #f2f2f2;
+    border-radius: 30px;
+    width: 65%;
+    height: 662px;
+}
+
+.hebergement h2 {
+    width: 90%;
+    margin: 20px 0 10px 30px;
+}
+
+.hebergement a {
+    width: 33%;
+    text-decoration: none;
+}
+
+.description-carte h3 {
+    margin: 11px 0 0 11px;
+}
+
+.description-carte p {
+    margin: 9px 0 10px 12px;
+}
+
+.note-hebergement {
+    margin: 12px 0 0 12px;
+}
+
+.hebergement ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.carte-hebergement {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 2px white solid;
+    border-radius: 30px;
+    width: 120%;
+    height: 220px;
+    background-color: white;
+}
+
+
+.description-carte {
+    color: black;
+}
+
+.note-hebergement {
+    margin: 12px 0 0 12px;
+    text-decoration: none;
+}
+
+main ul li {
+    border: none;
+}
+
+hebergement ul li:hover {
+    background-color: none;
+}
+
+
+.note-hebergement .fa-star {
+    color: blue;
+}
+
+.note-hebergement .fa-star.gray {
+    color: rgb(231, 231, 231);
+}
+
+
+
+.afficher {
+    margin-top: -30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
+/*--------------------------------------- Début main <article>---------------------*/
+article {
+    background-color: rgb(131, 43, 43);
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 680px;
+    border: 1px solid #f2f2f2;
+    border-radius: 30px;
+
+}
+
+.fa-chart-line {
+    color: #0065FC
+}
+
+.plus-populaires h2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+
+.img-populaires {
+    display: flex;
+    object-fit: cover;
+    border: white 1px solid;
+    border-radius: 30px 0 0 30px;
+    padding: 2px;
+    width: 30%;
+    min-width: 30%;
+    height: auto;
+}
+
+.plus-populaires a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.carte-populaire {
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+    border: 1px white solid;
+    border-radius: 30px;
+    width: 90%;
+    height: 150px;
+    background-color: white
+}
+
+.texte-populaires {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 0 0 10px;
+}
+
+
+.note-populaire {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    margin-bottom: 12px;
+    margin-left: 0;
+}
+
+.note-populaire .fa-star.blue {
+    color: blue;
+}
+
+.note-populaire .fa-star.gray {
+    color: rgb(224, 224, 224);
+}
+
+
+
+
+
+
+.activites img {
+    width: 150px;
+}
 
 /*------------------------------------- responsive------------------------*/
 
@@ -305,5 +498,7 @@ main {
         width: 150px;
         word-break: break-word;
     }
+
+
 
 }
