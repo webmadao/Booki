@@ -161,25 +161,25 @@ header input:active {
 
 /*--------------------------------------------SECTION "filtres"------------------------------------------------*/
 
-section {
+.filtres {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     padding-top: 20px;
 }
 
-section h2 {
+.filtres h2 {
     margin-right: 50px;
 }
 
-section ul {
+.filtres ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
 
 }
 
-section li {
+.filtres li {
     margin-right: 50px;
     border: 1px solid rgb(196, 195, 195);
     border-radius: 20px 20px;
@@ -219,17 +219,6 @@ main ul li {
 }
 
 
-/*main .hebergement img {
-    width: 90%;
-    height: 100px;
-    padding-left: 10px;
-    padding-top: 5px;
-    border: 1px solid hidden;
-    border-radius: 20px 20px 0px 0px;
-    margin: 0px 0;
-    object-fit: cover;
-}*/
-
 
 .hebergement {
     background-color: rgb(57, 114, 199);
@@ -238,7 +227,7 @@ main ul li {
     border: 1px solid #f2f2f2;
     border-radius: 30px;
     width: 68%;
-    height: 662px;
+    height: 682px;
 }
 
 .hebergement h2 {
@@ -251,6 +240,13 @@ main ul li {
     text-decoration: none;
 }
 
+.hebergement ul {
+    justify-content: space-around;
+
+    margin-left: -30px;
+    margin-right: 30px;
+}
+
 .carte-hebergement {
     display: flex;
     flex-direction: column;
@@ -258,21 +254,19 @@ main ul li {
     margin-bottom: 10px;
     border: 2px white solid;
     border-radius: 30px;
-    width: 110%;
+    width: 250px;
     height: 230px;
     background-color: white;
-    margin-left: 5px;
 }
 
 .img-hebergement {
     object-fit: cover;
     border: 2px white solid;
     border-radius: 30px 30px 0 0;
-    height: 130px;
-    width: 205px;
+    height: 120px;
+    width: 245px;
     align-items: center;
 }
-
 
 
 .description-carte h3 {
@@ -330,7 +324,7 @@ hebergement ul li:hover {
 
 
 .afficher {
-    margin-top: -30px;
+    padding-top: 30px;
     padding-left: 30px;
     padding-bottom: 30px;
     color: #000;
@@ -357,7 +351,6 @@ article {
     display: flex;
     justify-content: space-between;
     margin: 30px;
-
 }
 
 .img-populaires {
@@ -387,14 +380,6 @@ article {
     height: 150px;
     background-color: white
 }
-
-.texte-populaires {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    margin: 0 0 0 10px;
-}
-
 
 .note-populaire {
     display: flex;
@@ -502,25 +487,26 @@ footer li:hover {
         font-size: 20px
     }
 
-    section {
+    /*--------------------------------- fin Header---------------------------------*/
+    .filtres {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         padding-top: 20px;
     }
 
-    section h2 {
+    .filtres h2 {
         font-size: 15px;
 
     }
 
-    section ul {
+    .filtres ul {
         list-style-type: none;
         display: flex;
         flex-wrap: wrap;
     }
 
-    section li {
+    .filtres li {
         margin-right: 30px;
         border: 1px solid rgb(196, 195, 195);
         border-radius: 20px 20px;
@@ -529,12 +515,105 @@ footer li:hover {
         font-size: 12px;
     }
 
+    p .info {
+        font-size: smaller;
+    }
 
     .fa-info {
         color: #0065FC;
         border: 1px solid rgb(196, 195, 195);
         padding: 5px 10px;
         border-radius: 15px 15px;
+    }
+
+    /*-------------------------------------- fin filtres---------------------*/
+    main {
+        flex-direction: column;
+    }
+
+    .hebergement {
+        background-color: rgb(69, 199, 57);
+        width: 100%;
+    }
+
+    .hebergement h2 {
+        font-size: 17px;
+        padding-top: 3px;
+    }
+
+
+    .hebergement ul {
+        justify-content: space-around;
+        margin-left: -5px;
+    }
+
+    .carte-hebergement {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 10px;
+        border: 2px white solid;
+        border-radius: 30px;
+        width: 215px;
+        height: 220px;
+        background-color: white;
+        margin-right: 3px;
+    }
+
+    .img-hebergement {
+        object-fit: cover;
+        border: 2px white solid;
+        border-radius: 30px 30px 0 0;
+        height: 120px;
+        width: 210px;
+        align-items: center;
+    }
+
+
+    .description-carte h3 {
+        font-size: 15px;
+
+    }
+
+    .description-carte p {
+        font-size: 12px;
+    }
+
+    .note-hebergement {
+        font-size: smaller;
+    }
+
+    /*--------------------------------------- Début main <article>---------------------*/
+    article {
+        background-color: rgb(111, 78, 189);
+        display: flex;
+
+        justify-content: ;
+        width: 100%;
+        height: 300px;
+        border: 1px solid #f2f2f2;
+        border-radius: 30px;
+    }
+
+    .plus-populaires ul {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    .carte-populaire {
+        display: flex;
+        margin: auto;
+        margin-bottom: 40px;
+        border: 1px white solid;
+        border-radius: 30px;
+        width: 80%;
+        height: 150px;
+        background-color: white
+    }
+
+    .texte-populaire h3 {
+        font-size: 15px;
     }
 }
 
@@ -589,7 +668,7 @@ footer li:hover {
 
     /*---------------------------------------------fin article------------------------------------*/
 
-section aside {
+/*section aside {
     margin: 10px 0px 0px 0px;
     width: 100%;
     height: 50%;
@@ -637,7 +716,7 @@ section aside .populaires .choix .droite {
 
 /*-----------------------------------------------------------*/
 
-main .activités .card {
+/*main .activités .card {
     width: 52px;
     height: 167px;
     border-radius: 20px;
