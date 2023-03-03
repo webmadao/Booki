@@ -486,10 +486,7 @@ footer li:hover {
 
 /*------------------------------------- responsive------------------------*/
 
-@media screen and (max-width: 991px)
-
-/*and (max-width:992px)*/
-    {
+@media screen and (max-width: 991px) {
 
     .hebergement {
         background-color: rgb(230, 230, 230);
@@ -688,7 +685,6 @@ footer li:hover {
         align-items: center;
     }
 
-
     .description-carte h3 {
         font-size: 15px;
     }
@@ -779,7 +775,7 @@ footer li:hover {
 
 
     /*----------------------Début nav-----------------*/
-    @media screen and (min-width:309px) {
+    /*@media screen and (min-width:309px) {
         nav {
             display: flex;
             justify-content: center;
@@ -804,51 +800,51 @@ footer li:hover {
             margin: 0 10px;
         }
 
-        /* Header présenté en colonne */
-        header {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-top: 50px;
-            margin-bottom: 30px;
-        }
-
-        header h1 {
-            text-align: center;
-            margin: 0;
-        }
-
-        header p {
-            text-align: center;
-            margin: 10px 0;
-        }
-
-        header form {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        header form input[type="search"] {
-            width: 100%;
-            max-width: 300px;
-            margin-right: 10px;
-        }
-
-        header form button {
-            border: none;
-            background-color: #1E90FF;
-            color: white;
-            padding: 10px;
-            cursor: pointer;
-        }
-
-        header form button.mobile-button {
-            display: none;
-        }
+        /* Header présenté en colonne 
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
     }
+
+    header h1 {
+        text-align: center;
+        margin: 0;
+    }
+
+    header p {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    header form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    header form input[type="search"] {
+        width: 100%;
+        max-width: 300px;
+        margin-right: 10px;
+    }
+
+    header form button {
+        border: none;
+        background-color: #1E90FF;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    header form button.mobile-button {
+        display: none;
+    }
+}
 
 
 }
