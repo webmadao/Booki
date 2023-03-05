@@ -579,6 +579,7 @@ footer li {
         width: 100%;
     }
 
+
     aside .activités {
         display: flex;
         justify-content: space-around;
@@ -594,17 +595,12 @@ footer li {
     }
 
     .carte-activité {
-        width: 190px;
-        height: 300px;
-        margin-bottom: 50px;
-        margin-left: 25px;
-    }
-
-    .img-activité {
-        width: 190px;
-        height: 300px;
+        width: 22vw;
+        height: 200px;
+        margin-bottom: 200px;
 
     }
+
 
 }
 
