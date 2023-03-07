@@ -96,7 +96,7 @@ header {
     flex-wrap: wrap;
 }
 
-form i {
+/*form i {
     border: 1px solid var(--grey);
     border-radius: 15px 0px 0px 15px;
     padding: 15px 13px;
@@ -104,7 +104,7 @@ form i {
     font-weight: 500;
     background-color: #d4d5d6;
     color: var(--white);
-}
+}*/
 
 header i.fa-location-dot {
     color: var(--dark);
@@ -134,7 +134,7 @@ header i.fa-location-dot {
 
 .mobile-button {
     display: none;
-    position: relative;
+    /*position: relative;
     right: 20px;
     border: none;
     border-radius: 15px;
@@ -142,7 +142,7 @@ header i.fa-location-dot {
     font-size: 16px;
     cursor: pointer;
     background-color: #0065fc;
-    color: white;
+    color: white;*/
 }
 
 header i.fa-location-dot {
@@ -649,5 +649,165 @@ footer li {
     /*----------------------<header>-----------*/
 
 
+    .fa-location-dot {
+        border: 1px solid var(--grey);
+        border-radius: 15px 0px 0px 15px;
+        padding: 15px 13px;
+        font-size: 1em;
+        font-weight: 500;
+        background-color: #d4d5d6;
+        color: var(--white);
+    }
 
+    header i.fa-location-dot {
+        color: var(--dark);
+    }
+
+
+    .desktop-button {
+        display: none;
+    }
+
+    .mobile-button {
+        display: inline;
+        position: relative;
+        right: 20px;
+        border: none;
+        border-radius: 0 15px 15px 0;
+        padding: 15px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #0065fc;
+        color: white;
+    }
+
+    /*header i.fa-location-dot {
+        color: var(--dark);
+    }
+
+    header input {
+        padding: 15px 13px;
+        margin-left: -4.5px;
+        border: 1px solid var(--grey);
+        border: hidden;
+
+    }
+
+    header ::placeholder {
+        color: #000000;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    header input:active {
+        border-color: var(--grey);
+    }*/
+
+    /*----------------------<section> filtres--------------*/
+    /*.filtres ul {
+        display: flex;
+    }*/
+    .filtres {
+        width: 92%;
+    }
+
+    .mobile-button {
+        display: inline;
+    }
+
+    /*.filtres li {
+        margin-right: 0px;
+        border: 1px solid rgb(196, 195, 195);
+        border-radius: 20px 20px;
+        padding: 10px 10px;
+        font-weight: bold;
+        font-size: 90%;
+    }*/
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    article {
+        height: 600px;
+        margin-bottom: 10px;
+        margin: auto;
+        padding: 0%;
+    }
+
+    .plus-populaires ul {
+        display: flex;
+        flex-direction: column;
+        margin-right: 30%;
+        width: 100%;
+    }
+
+    .plus-populaires ul li {
+        width: 80%;
+        margin: 0%;
+
+    }
+
+    .carte-populaire {
+        width: 80%;
+    }
+
+
+
+    .hebergement {
+        width: 100%;
+        background-color: inherit;
+        border: none;
+    }
+
+
+
+    .hebergement h2 {
+        margin: 20px 0;
+    }
+
+    .hebergement ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .carte-hebergement {
+        width: 90vw;
+        box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+    }
+
+
+    .afficher {
+        display: none;
+    }
+
+    aside .activités {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carte-activité {
+        width: 90vw;
+        height: 58vw;
+        box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 50px;
+
+    }
+
+    .carte-activité img {
+        width: 90vw;
+        height: 50vw;
+    }
+
+    footer {
+        flex-direction: column;
+
+
+
+    }
 }
