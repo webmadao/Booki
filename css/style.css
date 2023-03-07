@@ -671,6 +671,9 @@ footer li {
         color: var(--dark);
     }
 
+    header input {
+        width: 40vw;
+    }
 
     .desktop-button {
         display: none;
@@ -696,7 +699,7 @@ footer li {
     }
 
     .filtres h2 {
-        margin-left: -30;
+        margin-right: 100%;
     }
 
     .filtres ul {
@@ -705,11 +708,16 @@ footer li {
         grid-template-rows: repeat(2, auto);
         grid-gap: 10px;
         margin-top: 20px;
-        margin-left: -30px;
+        margin-left: -50px;
     }
 
     .filtres li {
-        width: 70%;
+        width: 75%;
+    }
+
+    .filtres li b {
+        font-size: larger;
+        padding-left: 5px;
     }
 
     main {
@@ -785,7 +793,7 @@ footer li {
     .hebergement ul {
         margin: 0;
         padding: 0;
-
+        margin-bottom: 20px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -793,13 +801,22 @@ footer li {
 
     .carte-hebergement {
         margin-left: 5px;
-        width: 93vw;
+        margin-bottom: 10vw;
+        width: 100vw;
+        height: 300px;
         box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
     }
 
     .carte-hebergement img {
-        object-fit: fill;
-        width: 93vw;
+        object-fit: cover;
+        width: 100vw;
+        /*height:90vw*/
+        height: 200px;
+    }
+
+    .description-carte {
+        font-size: ;
+        box-sizing: content-box;
     }
 
     .afficher {
@@ -815,7 +832,7 @@ footer li {
     }
 
     .carte-activité {
-        width: 90vw;
+        width: 95vw;
         height: 58vw;
         box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
         margin-bottom: 50px;
@@ -823,7 +840,7 @@ footer li {
     }
 
     .carte-activité img {
-        width: 90vw;
+        width: 95vw;
         height: 50vw;
     }
 
@@ -836,7 +853,14 @@ footer li {
     /*-------------------footer------------*/
 
     footer {
+        display: flex;
         flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 20px;
     }
+
+
+
 
 }
