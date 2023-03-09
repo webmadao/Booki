@@ -7,9 +7,10 @@
 :root {
     --blue: #0065FC;
     --light-blue: #DEEBFF;
-    --grey: #F2F2F2;
+    --grey: #e4e4e4;
     --dark: #000;
     --white: #FFF;
+    --blue2: #c6d9f5;
 }
 
 body {
@@ -46,8 +47,8 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    color: black;
-    border: solid #F0F2F6 1px;
+    color: var(--dark);
+    border: solid var(--white) 1px;
     border: none;
 }
 
@@ -59,7 +60,7 @@ nav ul li {
 }
 
 nav ul a:hover {
-    color: #0065FC;
+    color: var(--blue);
 }
 
 nav a {
@@ -68,8 +69,8 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-    border-top: 2px solid #0065fc;
-    color: #0065fc;
+    border-top: 2px solid var(--blue);
+    color: var(--blue);
 }
 
 
@@ -86,7 +87,7 @@ nav a:focus {
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color: var(--dark);
 }
 
 /*----------------------Début header----------------*/
@@ -102,7 +103,7 @@ header {
     padding: 15px 13px;
     font-size: 1em;
     font-weight: 500;
-    background-color: #d4d5d6;
+    background-color: var(--grey);
     color: var(--white);
     width: 1vw;
 }
@@ -136,11 +137,11 @@ header i.fa-location-dot {
 }
 
 .desktop-button:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 var(--dark);
 }
 
 .desktop-button:active {
-    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 18px 0 var(--dark);
 }
 
 .mobile-button {
@@ -168,7 +169,7 @@ header input {
 }
 
 header ::placeholder {
-    color: #000000;
+    color: var(--dark);
     font-style: normal;
     font-weight: bold;
 }
@@ -202,28 +203,28 @@ header input:active {
 
 .filtres li {
     margin-right: 50px;
-    border: 1px solid rgb(196, 195, 195);
+    border: 1px solid var(--grey);
     border-radius: 20px 20px;
     padding: 10px 10px;
     font-weight: bold;
 }
 
 .filtres i {
-    color: #0065FC;
+    color: var(--blue);
 }
 
 .filtres li:hover {
-    background-color: #c6d9f5;
+    background-color: var(--blue2);
     cursor: pointer;
 }
 
 .filtres li:active {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 var(--dark);
 }
 
 .fa-info {
-    color: #0065FC;
-    border: 1px solid rgb(196, 195, 195);
+    color: var(--blue);
+    border: 1px solid var(--grey);
     padding: 5px 10px;
     border-radius: 15px 15px;
     margin-right: 5px;
@@ -242,10 +243,10 @@ main ul li {
 }
 
 .hebergement {
-    background-color: rgb(230, 230, 230);
+    background-color: var(--grey);
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid #f2f2f2;
+    border: 1px solid var(--white);
     border-radius: 30px;
     width: 68%;
     height: 682px;
@@ -273,16 +274,16 @@ main ul li {
     flex-direction: column;
     margin: auto;
     margin-bottom: 10px;
-    border: 2px white solid;
+    border: 2px var(--white) solid;
     border-radius: 30px;
     width: 18.4vw;
     height: auto;
-    background-color: white;
+    background-color: var(--white);
 }
 
 .img-hebergement {
     object-fit: cover;
-    border: 2px white solid;
+    border: 2px var(--white) solid;
     border-radius: 30px 30px 0 0;
     height: 120px;
     /* width: 18vw;*/
@@ -300,6 +301,7 @@ main ul li {
 
 .note-hebergement {
     margin: 12px 0 0 12px;
+    padding-bottom: 5px;
 }
 
 .hebergement ul {
@@ -308,7 +310,7 @@ main ul li {
 }
 
 .description-carte {
-    color: black;
+    color: var(--dark);
 }
 
 .note-hebergement {
@@ -317,19 +319,19 @@ main ul li {
 }
 
 .note-hebergement .fa-star {
-    color: blue;
+    color: var(--blue);
 }
 
 .note-hebergement .fa-star.gray {
-    color: rgb(231, 231, 231);
+    color: var(--grey);
 }
 
 .carte-hebergement:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 var(--dark);
 }
 
 .carte-hebergement:active {
-    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 18px 0 var(--dark);
 }
 
 
@@ -344,17 +346,17 @@ main ul li {
 
 /*--------------------------------------- Début main <article>---------------------*/
 article {
-    background-color: rgb(230, 230, 230);
+    background-color: var(--grey);
     display: flex;
     flex-direction: column;
     width: 30%;
     height: 680px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid var(--white);
     border-radius: 30px;
 }
 
 .fa-chart-line {
-    color: #0065FC
+    color: var(--blue);
 }
 
 .plus-populaires h2 {
@@ -368,7 +370,7 @@ article {
 .img-populaires {
     display: flex;
     object-fit: cover;
-    border: white 1px solid;
+    border: var(--white) 1px solid;
     border-radius: 30px 0 0 30px;
     padding: 2px;
     width: 40%;
@@ -379,7 +381,7 @@ article {
 .plus-populaires a {
     box-sizing: border-box;
     text-decoration: none;
-    color: #000;
+    color: var(--dark);
 }
 
 .carte-populaire {
@@ -413,19 +415,19 @@ article {
 
 
 .note-populaire .fa-star.blue {
-    color: blue;
+    color: var(--blue);
 }
 
 .note-populaire .fa-star.gray {
-    color: rgb(224, 224, 224);
+    color: var(--grey);
 }
 
 .carte-populaire:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 var(--dark);
 }
 
 .carte-populaire:active {
-    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 18px 0 var(--dark);
 }
 
 /*-----------------------------------------------Activité <aside> -----------------------*/
@@ -444,7 +446,7 @@ aside a {
 
 .carte-activité {
     height: 430px;
-    border: 1px white solid;
+    border: 1px var(--white) solid;
     border-radius: 20px 20px 20px 20px;
     margin: 0;
     box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
@@ -459,7 +461,7 @@ aside a {
 
 
 .carte-activité:hover {
-    box-shadow: 0 4px 8px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 6px var(--dark);
     transition: 0.3s;
 }
 
@@ -471,12 +473,12 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(230, 230, 230);
+    background-color: var(--grey);
 }
 
 footer a {
     text-decoration: none;
-    color: #000;
+    color: var(--dark);
 }
 
 footer ul {
@@ -517,7 +519,6 @@ footer li {
 
 
     .hebergement {
-        background-color: rgb(230, 230, 230);
         width: 100%;
         height: auto;
     }
@@ -609,7 +610,6 @@ footer li {
     }
 
     aside a {
-        color: #000;
         text-decoration: none;
     }
 
@@ -693,7 +693,7 @@ footer li {
     nav a:focus {
         border-top: none;
         padding-bottom: 15px;
-        border-bottom: 2px solid #0065FC;
+        border-bottom: 2px solid var(--blue);
 
     }
 
@@ -722,8 +722,8 @@ footer li {
         padding: 15px;
         font-size: 16px;
         cursor: pointer;
-        background-color: #0065fc;
-        color: white;
+        background-color: var(--blue);
+        color: var(--white);
     }
 
     /*----------------------<section> filtres--------------*/
@@ -835,7 +835,7 @@ footer li {
     }
 
     .hebergement ul {
-        margin: 0;
+        margin-right: 10Px;
         padding: 0;
         margin-bottom: 20px;
         display: flex;
@@ -847,19 +847,18 @@ footer li {
     .carte-hebergement {
         margin-left: 5px;
         margin-bottom: 10vw;
-        width: 100vw;
+        width: 98vw;
         height: 300px;
-        box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 7px 0 var(--dark);
     }
 
     .carte-hebergement img {
         object-fit: cover;
-        width: 100vw;
+        width: 97.5vw;
         /*height:90vw*/
         height: 200px;
     }
 
-    .hebergement li {}
 
     .description-carte {
         font-size: ;
@@ -881,7 +880,7 @@ footer li {
     .carte-activité {
         width: 95vw;
         height: 58vw;
-        box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 7px 0 var(--dark);
         margin-bottom: 50px;
 
     }
@@ -906,8 +905,6 @@ footer li {
         align-items: flex-start;
         padding-left: 20px;
     }
-
-
 
 
 }
