@@ -97,16 +97,6 @@ header {
     flex-wrap: wrap;
 }
 
-.fa-location-dot {
-    border: 1px solid var(--grey);
-    border-radius: 15px 0px 0px 15px;
-    padding: 15px 13px;
-    font-size: 1em;
-    font-weight: 500;
-    background-color: var(--grey);
-    color: var(--white);
-    width: 1vw;
-}
 
 /*form i {
     border: 1px solid var(--grey);
@@ -120,6 +110,9 @@ header {
 
 header i.fa-location-dot {
     color: var(--dark);
+    background-color: var(--grey);
+    padding: 15px 13px;
+    border-radius: 15px 0px 0px 15px;
 }
 
 
@@ -340,7 +333,7 @@ main ul li {
     padding-top: 30px;
     padding-left: 30px;
     padding-bottom: 30px;
-    color: #000;
+    color: var(--dark);
     font-weight: bold;
 }
 
@@ -388,12 +381,11 @@ article {
     display: flex;
     margin: auto;
     margin-bottom: 40px;
-    border: 1px white solid;
+    border: 1px var(--white);
     border-radius: 30px;
     width: 94%;
     height: 167px;
-    background-color: white;
-    margin-right: 30px;
+    background-color: var(--white) margin-right: 30px;
 }
 
 .texte-populaire {
@@ -440,7 +432,7 @@ aside .activités {
 }
 
 aside a {
-    color: #000;
+    color: var(--dark);
     text-decoration: none;
 }
 
@@ -449,7 +441,7 @@ aside a {
     border: 1px var(--white) solid;
     border-radius: 20px 20px 20px 20px;
     margin: 0;
-    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 7px 0 var(--dark);
 }
 
 .img-activité {
@@ -653,7 +645,7 @@ footer li {
 
     nav li {
         display: inline-block;
-        margin: 0 2px;
+        margin: 0 5px 0 2px;
         position: relative;
     }
 
@@ -874,15 +866,19 @@ footer li {
 
     }
 
+    .carte-activitéa {
+        margin-right: 10px;
+    }
+
     .carte-activité {
-        width: 95vw;
+        width: 90vw;
         height: 58vw;
-        box-shadow: 0 0 7px 0 var(--dark);
+        box-shadow: 0 0 7px 0 var(--grey);
         margin-bottom: 50px;
     }
 
     .carte-activité img {
-        width: 95vw;
+        width: 90vw;
         height: 50vw;
     }
 
