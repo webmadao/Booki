@@ -517,6 +517,7 @@ footer li {
         margin-right: 0;
     }
 
+    /*----------------------hebergement-----------------*/
 
     .hebergement {
         width: 100%;
@@ -625,11 +626,11 @@ footer li {
 
 
 @media screen and (max-width: 767px) {
+
     body {
         width: auto;
         height: auto;
     }
-
 
     nav {
         text-align: center;
@@ -640,8 +641,6 @@ footer li {
         margin: 0 auto;
         margin-bottom: 20px;
         position: relative;
-
-
     }
 
     nav ul {
@@ -728,7 +727,7 @@ footer li {
 
     /*----------------------<section> filtres--------------*/
     .filtres {
-
+        margin-right: 20px;
         flex-direction: column;
     }
 
@@ -781,6 +780,7 @@ footer li {
     }
 
     .plus-populaires {
+        margin-right: 8px;
         border-radius: none;
         width: 100%;
     }
@@ -829,13 +829,8 @@ footer li {
 
     }
 
-
-    .hebergement h2 {
-        /* margin: 20px 0;*/
-    }
-
     .hebergement ul {
-        margin-right: 10Px;
+        margin-right: 10px;
         padding: 0;
         margin-bottom: 20px;
         display: flex;
@@ -872,9 +867,11 @@ footer li {
 
     /*-------------------------activités-------------------*/
 
+
     aside .activités {
         display: flex;
         flex-direction: column;
+
     }
 
     .carte-activité {
@@ -882,7 +879,6 @@ footer li {
         height: 58vw;
         box-shadow: 0 0 7px 0 var(--dark);
         margin-bottom: 50px;
-
     }
 
     .carte-activité img {
