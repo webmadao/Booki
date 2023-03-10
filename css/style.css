@@ -627,6 +627,7 @@ footer li {
 
     nav {
         text-align: center;
+        flex-flow: column;
     }
 
     nav img {
@@ -638,21 +639,21 @@ footer li {
 
     nav ul {
         display: inline-block;
-        margin: 0 auto;
-        padding: 0;
+        /*margin: 0 auto;*/
+        /*padding: 0;*/
         list-style: none;
         white-space: nowrap;
     }
 
     nav li {
         display: inline-block;
-        margin: 0 5px 0 2px;
+        /* margin: 0 5px 0 2px;*/
         position: relative;
     }
 
     nav a {
         text-decoration: none;
-        padding: 0 40px 15px 40px;
+        /*padding: 0 20px 15px 20px;*/
     }
 
 
