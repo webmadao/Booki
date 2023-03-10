@@ -385,7 +385,8 @@ article {
     border-radius: 30px;
     width: 94%;
     height: 167px;
-    background-color: var(--white) margin-right: 30px;
+    background-color: var(--white);
+    margin-right: 30px;
 }
 
 .texte-populaire {
@@ -415,11 +416,11 @@ article {
 }
 
 .carte-populaire:hover {
-    box-shadow: 0 8px 16px 0 var(--dark);
+    box-shadow: 0 8px 16px 0 hsl(3, 1%, 90%);
 }
 
 .carte-populaire:active {
-    box-shadow: 0 10px 18px 0 var(--dark);
+    box-shadow: 0 10px 18px 0 hsl(3, 1%, 90%);
 }
 
 /*-----------------------------------------------Activité <aside> -----------------------*/
@@ -441,7 +442,7 @@ aside a {
     border: 1px var(--white) solid;
     border-radius: 20px 20px 20px 20px;
     margin: 0;
-    box-shadow: 0 0 7px 0 var(--dark);
+    box-shadow: 0 0 7px 0 hsl(3, 1%, 90%);
 }
 
 .img-activité {
