@@ -8,6 +8,7 @@
     --blue: #0065FC;
     --light-blue: #DEEBFF;
     --grey: #e4e4e4;
+    --grey2: #bebebe;
     --dark: #000;
     --white: #FFF;
     --blue2: #c6d9f5;
@@ -196,7 +197,7 @@ header input:active {
 
 .filtres li {
     margin-right: 50px;
-    border: 1px solid var(--grey);
+    border: 1px solid var(--grey2);
     border-radius: 20px 20px;
     padding: 10px 10px;
     font-weight: bold;
@@ -640,22 +641,26 @@ footer li {
     nav ul {
         display: inline-block;
         /*margin: 0 auto;*/
-        /*padding: 0;*/
+        padding: 0;
         list-style: none;
         white-space: nowrap;
+
     }
 
     nav li {
         display: inline-block;
         /* margin: 0 5px 0 2px;*/
+        /*padding-left: 30px;
+        padding-right: 30px;*/
         position: relative;
     }
 
     nav a {
         text-decoration: none;
+        padding: 0 40px 0 40px;
+
         /*padding: 0 20px 15px 20px;*/
     }
-
 
     /* nav {
         flex-direction: column;
@@ -685,6 +690,7 @@ footer li {
     nav a:hover,
     nav a:focus {
         border-top: none;
+        /*padding: 0 35px 0 35px;*/
         padding-bottom: 15px;
         border-bottom: 2px solid var(--blue);
 
@@ -699,7 +705,7 @@ footer li {
 
 
     header input {
-        width: 40vw;
+        width: 60vw;
     }
 
     .desktop-button {
@@ -712,7 +718,7 @@ footer li {
         right: 20px;
         border: none;
         border-radius: 0 15px 15px 0;
-        padding: 15px;
+        padding: 12px;
         font-size: 16px;
         cursor: pointer;
         background-color: var(--blue);
@@ -740,6 +746,7 @@ footer li {
 
     .filtres li {
         width: 75%;
+        font-size: 11px;
     }
 
     .filtres li b {
@@ -843,9 +850,10 @@ footer li {
 
     .carte-hebergement img {
         object-fit: cover;
-        width: 97.5vw;
+        /*width: 97.5vw;
+        */
         /*height:90vw*/
-        height: 200px;
+        height: 180px;
     }
 
 
