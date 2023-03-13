@@ -864,15 +864,12 @@ footer li {
 
     .carte-hebergement img {
         object-fit: cover;
-        /*width: 97.5vw;
-        */
-
+        /*width: 97.5vw;*/
         height: 130px;
     }
 
 
     .description-carte {
-        font-size: ;
         box-sizing: content-box;
     }
 
@@ -895,20 +892,20 @@ footer li {
     }*/
 
     .carte-activité {
-        width: 90vw;
+        width: 84vw;
         height: 58vw;
         box-shadow: 0 0 7px 0 var(--grey);
         margin-bottom: 50px;
     }
 
     .carte-activité img {
-        width: 90vw;
+        width: 84vw;
         height: 50vw;
     }
 
     .titre {
         padding-left: 3px;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
 
