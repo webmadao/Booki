@@ -624,11 +624,13 @@ footer li {
     body {
         width: auto;
         height: auto;
+        padding: 0 auto;
     }
 
     nav {
         text-align: center;
         flex-flow: column;
+        margin: 0 25px 0 25px;
     }
 
     nav img {
@@ -649,7 +651,7 @@ footer li {
 
     nav li {
         display: inline-block;
-        /* margin: 0 5px 0 2px;*/
+
         /*padding-left: 30px;
         padding-right: 30px;*/
         position: relative;
@@ -657,7 +659,7 @@ footer li {
 
     nav a {
         text-decoration: none;
-        padding: 0 40px 0 40px;
+        padding: 0 35px 0 35px;
 
         /*padding: 0 20px 15px 20px;*/
     }
@@ -698,6 +700,11 @@ footer li {
 
 
     /*----------------------<header>-----------*/
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     header .post {
         font-size: auto;
@@ -705,7 +712,7 @@ footer li {
 
 
     header input {
-        width: 60vw;
+        width: 50vw;
     }
 
     .desktop-button {
@@ -720,6 +727,7 @@ footer li {
         border-radius: 0 15px 15px 0;
         padding: 12px;
         font-size: 16px;
+        margin-left: 15px;
         cursor: pointer;
         background-color: var(--blue);
         color: var(--white);
@@ -727,7 +735,7 @@ footer li {
 
     /*----------------------<section> filtres--------------*/
     .filtres {
-        margin-right: 20px;
+        margin-right: 40px;
         flex-direction: column;
     }
 
@@ -827,23 +835,29 @@ footer li {
         width: 100%;
         background-color: inherit;
         border: none;
+    }
 
+    .hebergement h2 {
+        font-size: 20px;
+        font-weight: bolder;
+        margin: 30px 0 10px 10px;
     }
 
     .hebergement ul {
-        margin-right: 10px;
+        /*margin-right: 10px;*/
         padding: 0;
         margin-bottom: 20px;
         display: flex;
         align-items: center;
+        justify-content: center;
         flex-direction: column;
-
     }
 
+
     .carte-hebergement {
-        margin-left: 5px;
+        margin-left: 10px;
         margin-bottom: 10vw;
-        width: 98vw;
+        width: 90vw;
         height: 300px;
         box-shadow: 0 0 7px 0 var(--dark);
     }
@@ -873,7 +887,6 @@ footer li {
     aside .activités {
         display: flex;
         flex-direction: column;
-
     }
 
     .carte-activitéa {
