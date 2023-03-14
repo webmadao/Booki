@@ -7,7 +7,7 @@
 :root {
     --blue: #0065FC;
     --light-blue: #DEEBFF;
-    --grey: #e4e4e4;
+    --grey: #f3f3f3;
     --grey2: #bebebe;
     --dark: #000;
     --white: #FFF;
@@ -192,7 +192,6 @@ header input:active {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .filtres li {
@@ -257,8 +256,9 @@ main ul li {
 }
 
 .hebergement ul {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-
     margin-left: -30px;
     margin-right: 30px;
 }
@@ -298,10 +298,10 @@ main ul li {
     padding-bottom: 5px;
 }
 
-.hebergement ul {
+/*.hebergement ul {
     display: flex;
     flex-wrap: wrap;
-}
+}*/
 
 .description-carte {
     color: var(--dark);
@@ -321,11 +321,11 @@ main ul li {
 }
 
 .carte-hebergement:hover {
-    box-shadow: 0 8px 16px 0 var(--dark);
+    box-shadow: 0 8px 16px 0 var(--grey2);
 }
 
 .carte-hebergement:active {
-    box-shadow: 0 10px 18px 0 var(--dark);
+    box-shadow: 0 10px 18px 0 var(--grey2);
 }
 
 
@@ -443,6 +443,7 @@ aside a {
     border: 1px var(--white) solid;
     border-radius: 20px 20px 20px 20px;
     margin: 0;
+    padding-bottom: 10px;
     box-shadow: 0 0 7px 0 hsl(3, 1%, 90%);
 }
 
@@ -455,7 +456,7 @@ aside a {
 
 
 .carte-activité:hover {
-    box-shadow: 0 4px 8px 6px var(--dark);
+    box-shadow: 0 4px 8px 6px var(--grey2);
     transition: 0.3s;
 }
 
@@ -495,6 +496,10 @@ footer li {
 
 @media screen and (max-width: 991px) {
 
+    header h1 {
+        font-size: 20px;
+    }
+
     .filtres {
         display: flex;
         flex-wrap: wrap;
@@ -504,7 +509,8 @@ footer li {
     }
 
     .filtres li {
-        font-size: x-small;
+        font-size: 12px;
+        margin-right: 30px;
     }
 
     .filtres h2 {
@@ -527,6 +533,8 @@ footer li {
     .hebergement ul {
         justify-content: space-around;
         margin-left: -5px;
+        margin-right: 5px;
+        padding-left: 10px;
     }
 
     .carte-hebergement {
@@ -534,7 +542,7 @@ footer li {
         flex-direction: column;
         margin: auto;
         margin-bottom: 10px;
-        width: 25vw;
+        width: 28vw;
         height: 230px;
         margin-right: 3px;
     }
@@ -608,11 +616,8 @@ footer li {
         text-decoration: none;
     }
 
-    .carte-activité {
-        width: 22vw;
+    .carte-activités {
         height: 200px;
-        margin-bottom: 200px;
-
     }
 
 
