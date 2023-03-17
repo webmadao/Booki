@@ -224,7 +224,7 @@ main ul li {
 
 .hebergement h2 {
     width: 90%;
-    margin: 20px 0 10px 30px;
+    padding: 15px 0 10px 30px;
 }
 
 .hebergement a {
@@ -256,7 +256,7 @@ main ul li {
     object-fit: cover;
     border: 2px var(--white) solid;
     border-radius: 30px 30px 0 0;
-    height: 120px;
+    height: 122px;
     /* width: 18vw;*/
     align-items: center;
 }
@@ -325,7 +325,7 @@ article {
 }
 
 .plus-populaires h2 {
-    padding-top: 5px;
+    padding: 15px 0 30px 0;
     display: flex;
     justify-content: space-between;
     margin: 12px;
@@ -358,7 +358,7 @@ article {
     border: 1px var(--white);
     border-radius: 30px;
     width: 94%;
-    height: 160px;
+    height: 150px;
     background-color: var(--white);
     margin-right: 30px;
 }
@@ -373,15 +373,15 @@ article ul {
 
 .texte-populaire p {
     padding-bottom: 10px;
-
+    font-size: 13px;
+    margin-top: -8px;
 }
 
 .note-populaire {
     display: flex;
     align-items: flex-start;
     margin: auto;
-    margin-top: 10px;
-    /*margin-bottom: 12px;*/
+    margin-top: 25px;
 }
 
 
@@ -408,6 +408,11 @@ aside .activités {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+
+}
+
+aside h2 {
+    margin: 50px 0 30px 10px;
 }
 
 aside a {
@@ -416,7 +421,8 @@ aside a {
 }
 
 .carte-activité {
-    height: 430px;
+    height: 450px;
+    width: 22vw;
     border: 1px var(--white) solid;
     border-radius: 20px 20px 20px 20px;
     margin: 0;
@@ -439,9 +445,8 @@ aside a {
 
 .titre {
     box-sizing: content-box;
-    padding: 8px 0 8px 5px;
-    font-size: 12.5px;
-
+    padding: 15px 0 8px 5px;
+    /* font-size: 12.5px;*/
 }
 
 /*-----------------------------------------<footer>-------------------------*/
@@ -509,8 +514,9 @@ footer li {
     }
 
     .hebergement h2 {
-        font-size: 100%;
-        padding-top: 3px;
+        /*font-size: 15px;*/
+        padding-top: 15px;
+        margin-bottom: 0;
     }
 
 
@@ -544,7 +550,7 @@ footer li {
         display: flex;
         margin-top: 25px;
         width: 100%;
-        height: 250px;
+        height: 260px;
 
     }
 
@@ -557,6 +563,7 @@ footer li {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
+        margin-top: 0;
     }
 
     .carte-populaire {
@@ -565,7 +572,7 @@ footer li {
         margin: auto;
         margin-bottom: 40px;
         width: 25vw;
-        height: 140px;
+        height: 148px;
         margin-right: 20px;
     }
 
@@ -579,6 +586,11 @@ footer li {
 
     .texte-populaire p {
         font-size: 13px;
+        margin-top: -8px;
+    }
+
+    .note-populaire i {
+        margin-top: 3%;
     }
 
 
@@ -600,8 +612,12 @@ footer li {
         text-decoration: none;
     }
 
-    .carte-activités {
-        height: 200px;
+    .carte-activité {
+        height: 335px;
+    }
+
+    .carte-activité img {
+        height: 280px;
     }
 
 
@@ -784,17 +800,17 @@ footer li {
     }
 
     .plus-populaires h2 {
-        padding-left: -15px;
+        justify-content: space-between;
+        padding: 0;
+        margin: 20px 0 15px 10px;
     }
 
     .plus-populaires ul {
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
+        margin-left: 40px;
         margin-right: 10px;
         width: 88vw;
-        /* margin-right: 30%;
-        width: 85%;*/
     }
 
     .plus-populaires ul li {
@@ -829,7 +845,8 @@ footer li {
     .hebergement h2 {
         font-size: 20px;
         font-weight: bolder;
-        margin: 30px 0 10px 20px;
+        padding: 0;
+        margin: 30px 0 10px 10px;
     }
 
     .hebergement ul {
@@ -845,10 +862,10 @@ footer li {
 
     .carte-hebergement {
         margin-bottom: 8vw;
-        width: 85vw;
+        width: 88vw;
         height: 245px;
         box-shadow: 0 0 7px 0 var(--dark);
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     .carte-hebergement img {
@@ -874,6 +891,7 @@ footer li {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
     /*.carte-activitéa {
@@ -881,14 +899,14 @@ footer li {
     }*/
 
     .carte-activité {
-        width: 84vw;
-        height: 58vw;
+        width: 85vw;
+        height: 62vw;
         box-shadow: 0 0 7px 0 var(--grey);
         margin-bottom: 50px;
     }
 
     .carte-activité img {
-        width: 84vw;
+        width: 85vw;
         height: 50vw;
     }
 
