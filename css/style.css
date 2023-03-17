@@ -754,17 +754,19 @@ footer li {
         grid-template-rows: repeat(2, auto);
         grid-gap: 10px;
         margin-top: 20px;
-        margin-left: -50px;
+        margin-left: -80px;
     }
 
     .filtres li {
         width: 75%;
         font-size: 11px;
+        padding-right: 20px;
     }
 
     .filtres li b {
-        font-size: larger;
+        font-size: 12px;
         padding-left: 5px;
+        padding-right: 20px;
     }
 
 
@@ -803,6 +805,8 @@ footer li {
         justify-content: space-between;
         padding: 0;
         margin: 20px 0 15px 10px;
+        font-size: larger;
+
     }
 
     .plus-populaires ul {
@@ -894,19 +898,20 @@ footer li {
         width: 100%;
     }
 
-    /*.carte-activitéa {
-        margin-right: 10px;
-    }*/
+    aside h2 {
+        margin-left: -10px;
+    }
 
     .carte-activité {
-        width: 85vw;
+        width: 88vw;
         height: 62vw;
         box-shadow: 0 0 7px 0 var(--grey);
         margin-bottom: 50px;
+        margin-left: -10px;
     }
 
     .carte-activité img {
-        width: 85vw;
+        width: 88vw;
         height: 50vw;
     }
 
