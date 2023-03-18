@@ -333,6 +333,7 @@ main ul li {
     /*height: 680px;*/
     border: 1px solid var(--white);
     border-radius: 30px;
+    gap: 20px;
 }
 
 .fa-chart-line {
@@ -340,12 +341,22 @@ main ul li {
 }
 
 .plus-populaires h2 {
-    padding: 15px 0 30px 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
-    margin: 12px;
+    margin: 0;
     font-size: 22px;
-    padding-left: 15px;
+}
+
+.plus-populaires ul {
+    margin: 0;
+    padding-left: 20px;
+
+}
+
+.plus-populaires ul li {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -420,14 +431,13 @@ article ul {
 
 aside .activités {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+    gap: 20px;
 
 }
 
 aside h2 {
-    margin: 50px 0 30px 10px;
+    margin: 0;
+    padding: 40px 0 20px 0;
 }
 
 aside a {
@@ -435,9 +445,9 @@ aside a {
     text-decoration: none;
 }
 
+
 .carte-activité {
-    height: 450px;
-    width: 22vw;
+    width: calc(100% - 10px);
     border: 1px var(--white) solid;
     border-radius: 20px 20px 20px 20px;
     margin: 0;
@@ -446,8 +456,10 @@ aside a {
 }
 
 .img-activité {
-    width: 22vw;
+    width: 30vw;
     height: 400px;
+    max-width: 100%;
+    box-sizing: border-box;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
