@@ -325,7 +325,7 @@ main ul li {
 }
 
 /*--------------------------------------- Début main <article>---------------------*/
-article {
+.plus-populaires {
     background-color: var(--grey);
     display: flex;
     flex-direction: column;
@@ -333,7 +333,6 @@ article {
     /*height: 680px;*/
     border: 1px solid var(--white);
     border-radius: 30px;
-
 }
 
 .fa-chart-line {
@@ -562,7 +561,7 @@ footer li {
 
 
     /*--------------------------------------- Début main <article>---------------------*/
-    article {
+    .plus-populaires {
         display: flex;
         margin-top: 25px;
         width: 100%;
@@ -797,7 +796,7 @@ footer li {
     }
 
     /*-----------------------------Le plus populaires-------------------*/
-    article {
+    .plus-populaires {
         height: 600px;
         margin-bottom: 10px;
         margin: 0;
