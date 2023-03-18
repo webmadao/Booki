@@ -533,6 +533,10 @@ footer li {
         margin-right: 0;
     }
 
+    .filtres li {
+        font-size: inherit;
+    }
+
     /*----------------------hebergement-----------------*/
 
     .hebergement {
