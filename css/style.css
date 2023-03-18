@@ -65,7 +65,7 @@ nav ul a:hover {
 }
 
 nav a {
-    padding: 39px 26px;
+    padding: 41px 26px;
 }
 
 nav a:hover,
@@ -341,7 +341,7 @@ main ul li {
 }
 
 .plus-populaires h2 {
-    padding: 0;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -394,20 +394,22 @@ article ul {
 }
 
 .texte-populaire {
-    margin-left: 5px;
+    padding: 0 5px;
 }
 
 .texte-populaire p {
     padding-bottom: 10px;
+    padding-top: 0;
     font-size: 13px;
-    margin-top: -8px;
+    margin: 0;
 }
 
 .note-populaire {
     display: flex;
     align-items: flex-start;
-    margin: auto;
-    margin-top: 25px;
+    margin: 0;
+    box-sizing: border-box;
+    padding-top: 15px;
 }
 
 
