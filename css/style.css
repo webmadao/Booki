@@ -660,13 +660,14 @@ footer li {
     body {
         /* width: auto;
         height: auto;*/
-        padding: 0 auto;
+        padding: 0;
     }
 
     nav {
         text-align: center;
         flex-flow: column;
-        margin: 0 25px 0 25px;
+        margin: 0;
+        padding: 0;
     }
 
     nav img {
@@ -678,24 +679,25 @@ footer li {
 
     nav ul {
         display: inline-block;
-        /*margin: 0 auto;*/
+        margin: 0;
         padding: 0;
         list-style: none;
         white-space: nowrap;
-
     }
 
     nav li {
         display: inline-block;
-
+        margin: 0;
+        padding: 0;
         /*padding-left: 30px;
         padding-right: 30px;*/
-        position: relative;
+
     }
 
     nav a {
         text-decoration: none;
-        padding: 0 35px 0 35px;
+        margin: 0;
+        padding: 0 40px 0 40px;
 
         /*padding: 0 20px 15px 20px;*/
     }
@@ -738,8 +740,13 @@ footer li {
     /*----------------------<header>-----------*/
     header {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        /*align-items: center;
+        justify-content: center;*/
+        padding: 30px 20px 0 20px;
+    }
+
+    header p {
+        text-align: left;
     }
 
     header .post {
@@ -748,6 +755,8 @@ footer li {
 
 
     header input {
+        align-items: center;
+        justify-content: center;
         width: 50vw;
     }
 
@@ -773,6 +782,7 @@ footer li {
     .filtres {
         margin-right: 40px;
         flex-direction: column;
+        padding: 0 20px;
     }
 
     .filtres h2 {
@@ -800,13 +810,18 @@ footer li {
         padding-right: 20px;
     }
 
+    .info {
+        padding: 0 20px;
+    }
+
 
     /*----------------------main------------------*/
     main {
         width: 100%;
-        margin-left: -19px;
-        margin-right: -10px;
-        padding: 0%;
+        /* margin-left: -19px;
+        margin-right: -10px;*/
+        padding: 0;
+        margin: 0;
         display: flex;
         flex-direction: column-reverse;
     }
@@ -875,6 +890,8 @@ footer li {
         width: 100%;
         background-color: inherit;
         border: none;
+        margin: 0;
+        padding: 0;
     }
 
     .hebergement h2 {
@@ -887,11 +904,17 @@ footer li {
     .hebergement ul {
         /*margin-right: 10px;*/
         padding: 0;
-        margin-bottom: 20px;
+        margin: 0;
+        /*margin-bottom: 20px;*/
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .hebergement ul li {
+        margin: 0;
+        padding: 0;
     }
 
 
