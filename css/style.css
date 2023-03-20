@@ -838,18 +838,15 @@ footer li {
         padding-bottom: 10px;
         border-radius: unset;
         background-color: var(--grey);
+        gap: 20px;
 
     }
 
-    .plus-populaires {
-        margin-right: 8px;
-        border-radius: none;
-        width: 100%;
-    }
 
     .plus-populaires h2 {
         justify-content: space-between;
         padding: 0;
+        margin: 0;
         margin: 20px 0 15px 10px;
         font-size: larger;
 
@@ -865,7 +862,10 @@ footer li {
 
     .plus-populaires ul li {
         width: 100%;
+    }
 
+    .plus-populaires ul li img {
+        width: 70px;
     }
 
     .texte-populaire {
@@ -891,14 +891,16 @@ footer li {
         background-color: inherit;
         border: none;
         margin: 0;
-        padding: 0;
+        padding: 30px 10px 0 10px;
+
     }
 
     .hebergement h2 {
         font-size: 20px;
         font-weight: bolder;
         padding: 0;
-        margin: 30px 0 10px 10px;
+        margin: 0;
+        /*margin: 30px 0 10px 10px;*/
     }
 
     .hebergement ul {
@@ -907,8 +909,9 @@ footer li {
         margin: 0;
         /*margin-bottom: 20px;*/
         display: flex;
-        align-items: center;
-        justify-content: center;
+
+        /* align-items: center;
+        justify-content: center;*/
         flex-direction: column;
     }
 
@@ -923,7 +926,7 @@ footer li {
         width: 88vw;
         height: 245px;
         box-shadow: 0 0 7px 0 var(--dark);
-        margin-left: 15px;
+
     }
 
     .carte-hebergement img {
