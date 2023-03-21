@@ -815,6 +815,7 @@ footer li {
     }
 
 
+
     /*----------------------main------------------*/
     main {
         width: 100%;
@@ -829,13 +830,10 @@ footer li {
     /*-----------------------------Le plus populaires-------------------*/
     .plus-populaires {
         height: 600px;
-        margin-bottom: 10px;
         margin: 0;
+        padding: 0;
         width: unset;
         width: 100%;
-        padding-left: -10px;
-        padding-right: 50px;
-        padding-bottom: 10px;
         border-radius: unset;
         background-color: var(--grey);
         gap: 20px;
@@ -845,9 +843,8 @@ footer li {
 
     .plus-populaires h2 {
         justify-content: space-between;
-        padding: 0;
+        padding: 20px 10px 10px 10px;
         margin: 0;
-        margin: 20px 0 15px 10px;
         font-size: larger;
 
     }
@@ -855,18 +852,17 @@ footer li {
     .plus-populaires ul {
         display: flex;
         flex-direction: column;
-        margin-left: 40px;
-        margin-right: 10px;
+        /* margin-left: 40px;*/
+        /*margin-right: 10px;*/
+        padding-left: 10px;
         width: 88vw;
+        gap: 20px;
     }
 
     .plus-populaires ul li {
         width: 100%;
     }
 
-    .plus-populaires ul li img {
-        width: 70px;
-    }
 
     .texte-populaire {
         box-sizing: content-box;
@@ -876,13 +872,19 @@ footer li {
     .carte-populaire {
         width: 100%;
         height: 147px;
-        margin-left: -50px;
+        gap: 10px;
+        margin-bottom: 0;
+        /* margin-left: -50px;*/
     }
 
     .carte-populaire img {
-        width: 150px;
+        width: 92px;
     }
 
+    .carte-populaire i {
+        position: relative;
+        bottom: -20px;
+    }
 
     /*--------------------------hebergements-----------------------------------*/
 
@@ -953,10 +955,12 @@ footer li {
         align-items: center;
         justify-content: center;
         width: 100%;
+
     }
 
     aside h2 {
-        margin-left: -10px;
+        /*margin-left: -10px;*/
+        padding: 0 0 20px 10px;
     }
 
     .carte-activité {
