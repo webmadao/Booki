@@ -663,11 +663,15 @@ footer li {
         padding: 0;
     }
 
+
+
+
     nav {
         text-align: center;
         flex-flow: column;
         margin: 0;
         padding: 0;
+        width: 100%;
     }
 
     nav img {
@@ -686,55 +690,33 @@ footer li {
         white-space: nowrap;
     }
 
+    nav ul li {
+        padding: 0;
+        width: 50%;
+    }
+
     nav li {
         display: inline-block;
         margin: 0;
-        padding: 0;
-        /*padding-left: 30px;
-        padding-right: 30px;*/
+        padding: 0px;
 
     }
+
 
     nav a {
         text-decoration: none;
         margin: 0;
-        padding: 0 40px 0 40px;
-        /*width: 50%;*/
-        /*padding: 0 20px 15px 20px;*/
+        padding: 0 50px 0 50px;
     }
-
-    /* nav {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    nav img {
-        margin-left: 5%;
-        margin-bottom: 20px;
-    }
-
-    nav ul {
-        width: 100%;
-        margin-right: 50px;
-    }
-
-    nav li {
-        width: 30%;
-        text-align: center;
-        padding-right: 20px;
-    }*/
 
 
 
     nav a:hover,
     nav a:focus {
         border-top: none;
-        /*padding: 0 35px 0 35px;*/
         padding-bottom: 15px;
         border-bottom: 2px solid var(--blue);
-        width: 50%;
+
 
     }
 
