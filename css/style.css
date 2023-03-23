@@ -891,6 +891,10 @@ footer li {
 
     /*-------------------------<aside>-activités-------------------*/
 
+    aside {
+        padding-top: 30px;
+    }
+
     aside .activités {
         display: flex;
         flex-direction: column;
@@ -899,7 +903,6 @@ footer li {
     }
 
     aside h2 {
-
         padding: 0 0 20px 10px;
     }
 
