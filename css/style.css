@@ -5,17 +5,15 @@
 
 /*-----------------------------------------------------Css Booki-----------------------------------------*/
 :root {
-    --blue: #498cf0;
+    --blue: #0065FC;
     --light-blue: #DEEBFF;
-    --grey: #f3f3f3;
-    --grey2: #bebebe;
+    --grey: #F2F2F2;
     --dark: #000;
     --white: #FFF;
-    --blue2: #c6d9f5;
 }
 
 body {
-    max-width: 1440px;
+    max-width: 1400px;
     font-family: 'Raleway', sans-serif;
     margin: auto;
     padding: 0 20px;
@@ -172,7 +170,7 @@ header input:active {
 
 .filtres li {
     margin-right: 50px;
-    border: 1px solid var(--grey2);
+    border: 1px solid var(--grey);
     border-radius: 20px 20px;
     padding: 10px 10px;
     font-weight: bold;
@@ -183,7 +181,7 @@ header input:active {
 }
 
 .filtres li:hover {
-    background-color: var(--blue2);
+    background-color: var(--light-blue);
     cursor: pointer;
 }
 
@@ -296,11 +294,11 @@ main ul li {
 }
 
 .carte-hebergement:hover {
-    box-shadow: 0 8px 16px 0 var(--grey2);
+    box-shadow: 0 8px 16px 0 var(--grey);
 }
 
 .carte-hebergement:active {
-    box-shadow: 0 10px 18px 0 var(--grey2);
+    box-shadow: 0 10px 18px 0 var(--grey);
 }
 
 .afficher {
@@ -451,7 +449,7 @@ aside a {
 
 
 .carte-activité:hover {
-    box-shadow: 0 4px 8px 6px var(--grey2);
+    box-shadow: 0 4px 8px 6px var(--grey);
     transition: 0.3s;
 }
 
