@@ -545,26 +545,39 @@ footer li {
         height: auto;
         padding: 0;
         margin: 0;
+        display: flex;
+        gap: 25px;
     }
 
     .hebergement h2 {
-        padding-top: 30px;
+        padding: 0;
         margin-bottom: 0;
     }
 
     .hebergement ul {
-        justify-content: space-around;
         margin: 0;
         padding: 0;
-        padding-right: 10px;
+        gap: 20px;
     }
+
+    .hebergement ul li {
+        padding: 0;
+    }
+
 
     .carte-hebergement {
         display: flex;
         flex-direction: column;
         margin: 0;
         width: 28vw;
-        height: 230px;
+        height: 210px;
+        padding: 0;
+    }
+
+    .description-carte {
+        /* display: flex;
+        flex-flow: column;
+        justify-content: space-between;*/
     }
 
     /*-------------------------------<section>-plus-populaires---------------------*/
@@ -694,10 +707,8 @@ footer li {
     nav a {
         text-decoration: none;
         margin: 0;
-        padding: 0 50px 0 50px;
+        padding: 0 55px 0 55px;
     }
-
-
 
     nav a:hover,
     nav a:focus {
@@ -820,7 +831,7 @@ footer li {
     .plus-populaires ul {
         display: flex;
         flex-direction: column;
-        padding-left: 10px;
+        padding-left: 0px;
         width: 88vw;
         gap: 20px;
     }
@@ -846,8 +857,6 @@ footer li {
         width: 92px;
     }
 
-
-
     /*--------------------------<article>-hebergements-----------------------------------*/
 
     .hebergement {
@@ -855,7 +864,7 @@ footer li {
         background-color: inherit;
         border: none;
         margin: 0;
-        padding: 30px 10px 0 10px;
+        padding: 10px 10px 0 10px;
     }
 
     .hebergement h2 {
