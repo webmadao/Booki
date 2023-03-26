@@ -760,7 +760,7 @@ footer li {
 
     /*----------------------<section>-filtres--------------*/
     .filtres {
-        margin-right: 20px;
+        margin-right: 0px;
         flex-direction: column;
         padding: 0 30px 0 20px;
         padding-top: 5px;
@@ -778,11 +778,12 @@ footer li {
         grid-gap: 10px;
         margin-top: 20px;
         margin-left: -80px;
+
     }
 
     .filtres li {
         width: 75%;
-        font-size: 12px;
+        font-size: 13px;
         padding-right: 25px;
     }
 
