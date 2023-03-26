@@ -245,13 +245,14 @@ main ul li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: calc((100% - 50px) / 3)
+    width: calc((100% - 50px) / 3);
 }
 
 .carte-hebergement {
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding: 0;
     height: 215px;
     /* margin-bottom: 10px;*/
     border: 2px var(--white) solid;
@@ -272,26 +273,25 @@ main ul li {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    color: var(--dark);
 }
 
 .description-carte h3 {
     margin: 0;
+    padding: 0;
 }
 
 .description-carte p {
-    margin: 0px
+    margin: 0;
+    padding: 0;
 }
 
 .note-hebergement {
     margin: 0;
     padding: 0;
     text-decoration: none;
-}
 
-.description-carte {
-    color: var(--dark);
 }
-
 
 .note-hebergement .fa-star {
     color: var(--blue);
@@ -811,6 +811,12 @@ footer li {
     }
 
     /*-----------------------------<section>-plus-populaires-------------------*/
+    main .plus-populaires {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
     .plus-populaires {
         height: 600px;
         margin: 0;
@@ -822,18 +828,25 @@ footer li {
         gap: 20px;
     }
 
+
     .plus-populaires h2 {
         justify-content: space-between;
-        padding: 0;
-        padding: 15px 10px;
+        padding: 10 0;
         margin: 0;
-        font-size: larger;
+    }
+
+    .plus-populaires h3 {
+        font-size: 20px;
+    }
+
+    .plus-populaires p {
+        font-size: 18px;
     }
 
     .plus-populaires ul {
         display: flex;
         flex-direction: column;
-        padding-left: 10px;
+        /*padding-left: 10px;*/
         width: 88vw;
         gap: 20px;
     }
@@ -843,7 +856,7 @@ footer li {
     }
 
     .texte-populaire {
-        font-size: 80%;
+        font-size: 20px;
     }
 
     .carte-populaire {
@@ -866,21 +879,24 @@ footer li {
         background-color: inherit;
         border: none;
         margin: 0;
-        padding: 10px 10px 0 10px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+
     }
 
     .hebergement h2 {
-        font-size: 20px;
-        font-weight: bolder;
-        padding: 0;
         margin: 0;
+        display: block;
+        text-align: left;
     }
 
     .hebergement ul {
         padding: 0;
         margin: 0;
         display: flex;
-        flex-direction: column;
+        flex-flow: column;
     }
 
     .hebergement ul li {
@@ -890,12 +906,11 @@ footer li {
 
 
     .carte-hebergement {
-        margin-bottom: 8vw;
+        margin: 0;
         width: 88vw;
         height: 242px;
         border-radius: 25px;
         box-shadow: 0 0 7px 0 var(--dark);
-
     }
 
     .carte-hebergement img {
@@ -906,7 +921,11 @@ footer li {
 
 
     .description-carte {
-        box-sizing: content-box;
+        /* box-sizing: content-box;*/
+        font-size: 20px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
     }
 
     .afficher {
@@ -933,9 +952,8 @@ footer li {
 
     .carte-activité {
         width: 88vw;
-        height: 62vw;
+        height: 64vw;
         box-shadow: 0 0 7px 0 var(--grey);
-
     }
 
     .carte-activité img {
@@ -945,7 +963,7 @@ footer li {
 
     .titre {
         padding-left: 10px;
-        font-size: 4vw;
+        font-size: 18px;
     }
 
 
