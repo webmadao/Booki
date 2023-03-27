@@ -24,7 +24,6 @@ ul {
     list-style-type: none;
 }
 
-
 /*-----------------------<nav>-----------------*/
 nav {
     display: flex;
@@ -220,7 +219,6 @@ main ul li {
     gap: 20px;
     padding: 0;
     margin: 0;
-    /* padding-left: 10px;*/
 }
 
 .hebergement h2 {
@@ -253,8 +251,6 @@ main ul li {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    height: 215px;
-    /* margin-bottom: 10px;*/
     border: 2px var(--white) solid;
     border-radius: 25px;
     background-color: var(--white);
@@ -269,11 +265,13 @@ main ul li {
 }
 
 .description-carte {
-    padding: 10px;
+    margin: 0;
+    padding: 10px 10px;
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     justify-content: space-between;
     color: var(--dark);
+    height: 80px;
 }
 
 .description-carte h3 {
@@ -283,14 +281,13 @@ main ul li {
 
 .description-carte p {
     margin: 0;
-    padding: 0;
 }
 
 .note-hebergement {
     margin: 0;
-    padding: 0;
-    text-decoration: none;
 
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .note-hebergement .fa-star {
@@ -375,7 +372,6 @@ main ul li {
     width: 94%;
     height: 150px;
     background-color: var(--white);
-    /*margin-right: 30px;*/
 }
 
 article ul {
@@ -390,8 +386,6 @@ article ul {
 }
 
 .texte-populaire p {
-    /*padding-bottom: 10px;
-    padding-top: 0;*/
     font-size: 13px;
     padding: 0;
     margin: 0;
@@ -408,7 +402,6 @@ article ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*padding-top: 10%;*/
 }
 
 
@@ -449,9 +442,7 @@ aside a {
     width: 100%;
     border: 1px var(--white) solid;
     border-radius: 20px 20px 20px 20px;
-    /*width: 30vw;*/
     margin: 0;
-    /*padding-bottom: 10px;*/
     box-shadow: 0 0 7px 0 hsl(3, 1%, 90%);
 }
 
@@ -552,7 +543,7 @@ footer li {
     }
 
     .hebergement h2 {
-        padding: 20px 20px;
+        padding: 20px 20px 0 20px;
         margin-bottom: 0;
     }
 
@@ -572,14 +563,14 @@ footer li {
         flex-direction: column;
         margin: 0;
         width: 28vw;
-        height: 210px;
         padding: 0;
     }
 
     .description-carte {
-        /* display: flex;
+        display: flex;
         flex-flow: column;
-        justify-content: space-between;*/
+        justify-content: space-between;
+        height: 70px;
     }
 
     /*-------------------------------<section>-plus-populaires---------------------*/
@@ -589,12 +580,10 @@ footer li {
         margin-top: 25px;
         width: 100%;
         height: 260px;
-
     }
 
     .plus-populaires h2 {
-        /*font-size: 100%;*/
-        padding-left: 30px;
+        padding: 20px 30px;
     }
 
     .plus-populaires ul {
@@ -660,7 +649,6 @@ footer li {
     }
 
 }
-
 
 @media screen and (max-width: 767px) {
 
@@ -778,13 +766,12 @@ footer li {
         grid-gap: 10px;
         margin-top: 20px;
         margin-left: -80px;
-
     }
 
     .filtres li {
         width: 75%;
         font-size: 13px;
-        padding-right: 25px;
+        padding-right: 15px;
     }
 
     .filtres li b {
@@ -812,11 +799,6 @@ footer li {
     }
 
     /*-----------------------------<section>-plus-populaires-------------------*/
-    main .plus-populaires {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-    }
 
     .plus-populaires {
         height: 600px;
@@ -827,13 +809,16 @@ footer li {
         border-radius: unset;
         background-color: var(--grey);
         gap: 20px;
-    }
 
+    }
 
     .plus-populaires h2 {
         justify-content: space-between;
-        padding: 10 0;
-        margin: 0;
+        padding: 20px 10px 10px 10px;
+    }
+
+    .plus-populaires ul {
+        padding: 0 10px;
     }
 
     .plus-populaires h3 {
@@ -847,13 +832,13 @@ footer li {
     .plus-populaires ul {
         display: flex;
         flex-direction: column;
-        /*padding-left: 10px;*/
         width: 88vw;
         gap: 20px;
     }
 
     .plus-populaires ul li {
         width: 100%;
+
     }
 
     .texte-populaire {
@@ -881,20 +866,16 @@ footer li {
         border: none;
         margin: 0;
         padding: 0;
-        display: flex;
-        align-items: center;
-        flex-flow: column;
-
     }
 
     .hebergement h2 {
         margin: 0;
-        display: block;
         text-align: left;
+        padding: 5px 0 0 10px;
     }
 
     .hebergement ul {
-        padding: 0;
+        padding: 0 10px;
         margin: 0;
         display: flex;
         flex-flow: column;
@@ -922,7 +903,6 @@ footer li {
 
 
     .description-carte {
-        /* box-sizing: content-box;*/
         font-size: 20px;
         display: flex;
         flex-flow: column;
@@ -948,7 +928,7 @@ footer li {
     }
 
     aside h2 {
-        padding: 0 0 20px 10px;
+        padding: 0 0 10px 10px;
     }
 
     .carte-activité {
