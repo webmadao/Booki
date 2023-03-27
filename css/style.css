@@ -836,9 +836,12 @@ footer li {
         gap: 20px;
     }
 
+    .plus-populaires i {
+        font-size: 15px;
+    }
+
     .plus-populaires ul li {
         width: 100%;
-
     }
 
     .texte-populaire {
