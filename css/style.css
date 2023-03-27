@@ -299,11 +299,11 @@ main ul li {
 }
 
 .carte-hebergement:hover {
-    box-shadow: 0 8px 16px 0 var(--grey);
+    box-shadow: 0 8px 16px 0 hsl(3, 1%, 90%);
 }
 
 .carte-hebergement:active {
-    box-shadow: 0 10px 18px 0 var(--grey);
+    box-shadow: 0 8px 16px 0 hsl(3, 1%, 90%);
 }
 
 .afficher {
@@ -892,7 +892,7 @@ footer li {
         width: 88vw;
         height: 242px;
         border-radius: 25px;
-        box-shadow: 0 0 7px 0 var(--dark);
+        border: solid 2px var(--grey);
     }
 
     .carte-hebergement img {
@@ -912,7 +912,6 @@ footer li {
     .afficher {
         display: none;
     }
-
 
     /*-------------------------<aside>-activités-------------------*/
 
