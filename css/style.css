@@ -890,7 +890,6 @@ footer li {
     .carte-hebergement {
         margin: 0;
         width: 88vw;
-        height: 242px;
         border-radius: 25px;
         border: solid 2px var(--grey);
     }
@@ -907,6 +906,7 @@ footer li {
         display: flex;
         flex-flow: column;
         justify-content: space-between;
+        height: 90px;
     }
 
     .afficher {
