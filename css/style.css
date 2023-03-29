@@ -718,10 +718,6 @@ footer li {
         text-align: left;
     }
 
-    header .post {
-        font-size: auto;
-    }
-
     header input {
         align-items: center;
         justify-content: center;
